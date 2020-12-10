@@ -9,6 +9,7 @@
 ## Idée
 
 Un site faisant office d'annuaire regroupant différent employer d'une societé.
+
 ----------------
 ## Run 
 ----------------
@@ -20,11 +21,16 @@ Un site faisant office d'annuaire regroupant différent employer d'une societé.
 
 Storage : Base de donné Hibernet
 ----------------
-#API 1 : Login
+
+API 1 : Login
 
 Impossible de faire un GET sur 127.0.0.1:8080/hello, l'accès est sécurisé par un tocken.
 
 *Dispositif électronique que l'on transporte avec soi et qui sert à produire des codes ou des mots de passe à partir desquels l'appareil qui les reçoit peut reconnaître l'identité de la personne qui désire obtenir l'accès à un réseau, à un système ou à un ordinateur.*
+
+POST sur 127.0.0.1:8080/user 
+
+GET sur 127.0.0.1:8080/hello possible grace à la clé secrete
 
 ## End point
 ----------------
@@ -43,6 +49,7 @@ Impossible de faire un GET sur 127.0.0.1:8080/hello, l'accès est sécurisé par
 127.0.0.1:8080/employees: POST création d'un objets employee ajouter à l'api
 
 127.0.0.1:8080/employees/<int:id>: PUT modifie l'objets employee dont l'ID correspond
+
 ----------------
 ##  Modèle de donnée
 
