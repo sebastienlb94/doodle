@@ -22,17 +22,25 @@ Storage : Base de donné Hibernet
 
 ----------------
 
-API 1 : Login
+## API 1 : Login
 
-| 1) GET Sécurité par le token       | 2) POST login password           | 3) Accès autoriser à l'api       |
-|     :---:    |     :---:      |     :---:     |
-|![Features](static/cap1.png)|![Features](static/cap2.png)|![Features](static/cap3.png)|
+| 1) GET Sécurité par le token|
+|     :---:    |
+|![Features](static/cap1.png)|
 
-1) Il est mpossible de faire un GET sur 127.0.0.1:8080/hello, l'accès est sécurisé par un tocken.
+1) Il est impossible de faire un GET sur 127.0.0.1:8080/hello, l'accès est sécurisé par un tocken.
 
 *Dispositif électronique que l'on transporte avec soi et qui sert à produire des codes ou des mots de passe à partir desquels l'appareil qui les reçoit peut reconnaître l'identité de la personne qui désire obtenir l'accès à un réseau, à un système ou à un ordinateur.*
 
+| 2) POST login password|
+|     :---:    |
+|![Features](static/cap2.png)|
+
 2) POST sur 127.0.0.1:8080/user si le user password est bon alors alors le tocken renvoi sur clé secret. Le tocken à un temps limité de 10 minutes.
+
+| 3) Accès autoriser à l'api|
+|     :---:     |
+|![Features](static/cap3.png)|
 
 3) GET sur 127.0.0.1:8080/hello possible grace à la clé secrete obtenu par le tocken seul les users autorisés on accès à cette api.
 
