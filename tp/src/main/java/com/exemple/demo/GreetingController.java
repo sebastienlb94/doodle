@@ -15,8 +15,8 @@ public class GreetingController {
     private final AtomicLong counter = new AtomicLong();
     private List<Customer> strings = new ArrayList<Customer>();
 
-    @GetMapping("/greeting")
-    public Greeting greeting(@RequestParam(value = "prenom", defaultValue = "aaa") String prenom, @RequestParam(value = "nom", defaultValue = "bbb") String nom, @RequestParam(value = "mdp", defaultValue = "esiea") String mdp, @RequestParam(value = "mail", defaultValue = "a@esiea.fr") String mail)  {
-        return new Greeting(counter.incrementAndGet(), prenom, nom, mdp, mail);
+    @GetMapping("/api/login")
+    public Greeting greeting(@RequestParam(value = "user", defaultValue = "aaa") String user, @RequestParam(value = "nom", defaultValue = "bbb") String nom, @RequestParam(value = "mdp", defaultValue = "esiea") String mdp, @RequestParam(value = "mail", defaultValue = "a@esiea.fr") String mail){
+        return new Greeting(counter.incrementAndGet(), user, nom, mdp, mail);
     }
 }
