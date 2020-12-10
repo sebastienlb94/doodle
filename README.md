@@ -26,7 +26,7 @@ API 1 : Login
 
 | 1) GET Sécurité par le token       | 2) POST login password           | 3) Accès autoriser à l'api       |
 |     :---:    |     :---:      |     :---:     |
-|![Features](static/cap1.png)|![Features]()|![Features]()|
+|![Features](static/cap1.png)|![Features](static/cap2.png)|![Features](static/cap3.png)|
 
 1) Il est mpossible de faire un GET sur 127.0.0.1:8080/hello, l'accès est sécurisé par un tocken.
 
