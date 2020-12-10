@@ -1,25 +1,25 @@
 # Programmation Web orienté mobile
+
+Un site faisant office d'annuaire regroupant différent employer d'une societé.
+
 ----------------
 ## Membre de l'équipe 
 
 - Andy Tagne
 - Sébastien Soto
 - Yannis Boughali
-----------------
-## Idée
-
-Un site faisant office d'annuaire regroupant différent employer d'une societé.
 
 ----------------
 ## Run 
 ----------------
 ## Stack technique
 ----------------
-### Front-end : Angular
+### Front-end : HTML/CSS/Jquery
 ----------------
 ### Back-end : Java
 
 Storage : Base de donné Hibernet
+
 ----------------
 
 API 1 : Login
