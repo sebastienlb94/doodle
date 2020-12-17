@@ -4,19 +4,21 @@
   <meta charset="utf-8">
   <title>Titre</title>
   <link href="login.css" rel="stylesheet">
-  <script src="script.js"></script>
 </head>
 <body>
 
     <div class="login">
         <h1>Login</h1>
           <form method="post">
-            <input type="text" name="u" placeholder="Username" required="required" />
-              <input type="password" name="p" placeholder="Password" required="required" />
-              <button type="submit" class="btn btn-primary btn-block btn-large">Validate</button>
+            <input type="text" id="name" name="u" placeholder="Username" required="required" />
+              <input type="password" id="pwd" name="p" placeholder="Password" required="required" />
+              <button type="submit" id="submit" class="btn btn-primary btn-block btn-large">Validate</button>
           </form>
       </div>
     
 </body>
+
+<script src="jquery.js"></script>
+<script src="login.js"></script>
 </html>
 

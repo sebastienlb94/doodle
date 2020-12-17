@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/module2-Employee.iml" filepath="$PROJECT_DIR$/module2-Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module2-Employee/spring-hateoas-examples-affordances.iml" filepath="$PROJECT_DIR$/module2-Employee/spring-hateoas-examples-affordances.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-evolution/new-client/spring-hateoas-examples-new-client.iml" filepath="$PROJECT_DIR$/api-evolution/new-client/spring-hateoas-examples-new-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-evolution/new-server/spring-hateoas-examples-new-server.iml" filepath="$PROJECT_DIR$/api-evolution/new-server/spring-hateoas-examples-new-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-evolution/original-client/spring-hateoas-examples-original-client.iml" filepath="$PROJECT_DIR$/api-evolution/original-client/spring-hateoas-examples-original-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-evolution/original-server/spring-hateoas-examples-original-server.iml" filepath="$PROJECT_DIR$/api-evolution/original-server/spring-hateoas-examples-original-server.iml" />
+    </modules>
+  </component>
+</project>

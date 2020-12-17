@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Titre</title>
   <link href="all.css" rel="stylesheet">
-  <script src="script.js"></script>
 </head>
 <body>
 
@@ -20,14 +19,17 @@
   <form id="contact" action="" method="post">
     <h3>Votez pour le profil que vous voulez</h3>
     <fieldset>
-      <input placeholder="ID" required autofocus>
+      <input placeholder="idVote" required autofocus>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Bon travail</button>
-      <button name="submit" type="bad" id="contact-submit" data-submit="...Sending">Pas super...</button>
+      <button name="submit" type="submit" id="plus" data-submit="...Sending">Bon travail</button>
+      <button name="submit" type="bad" id="minus" data-submit="...Sending">Pas super...</button>
     </fieldset>
   </form>
 </div>
 
 </body>
+
+<script src="jquery.js"></script>
+<script src="vote.js"></script>
 </html>

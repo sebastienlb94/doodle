@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Titre</title>
   <link href="all.css" rel="stylesheet">
-  <script src="script.js"></script>
 </head>
 <body>
 
@@ -19,15 +18,18 @@
 <div class="container">  
   <form id="contact" action="" method="post">
     <h3>Suppression d'un profil</h3>
-    <h4>ce formulaire supprime un profil à nos données</h4>
+    <h4>Ce formulaire supprime un profil à nos données</h4>
     <fieldset>
-      <input placeholder="ID" required autofocus>
+      <input placeholder="idDel" required autofocus>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <button name="submit" type="submit" id="delete" data-submit="...Sending">Submit</button>
     </fieldset>
   </form>
 </div>
 
 </body>
+
+<script src="jquery.js"></script>
+<script src="del.js"></script>
 </html>

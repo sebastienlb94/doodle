@@ -1,6 +1,7 @@
 package es.softtek.modulelogin.security;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -9,6 +10,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -21,10 +24,11 @@ import io.jsonwebtoken.MalformedJwtException;
 import io.jsonwebtoken.UnsupportedJwtException;
 
 public class LoginAuthorizationFilter extends OncePerRequestFilter {
+	private static final Logger log = LoggerFactory.getLogger(LoginAuthorizationFilter.class);
 
-	private final String HEADER = "Authorization";
-	private final String PREFIX = "Bearer ";
-	private final String SECRET = "mySecretKey";
+	private final String HEADER = "a";
+	private final String PREFIX = "b";
+	private final String SECRET = "c";
 
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws ServletException, IOException {
@@ -64,11 +68,13 @@ public class LoginAuthorizationFilter extends OncePerRequestFilter {
 
 	private boolean checkJWTToken(HttpServletRequest request, HttpServletResponse res) {
 		String authenticationHeader = request.getHeader(HEADER);
+		log.info("aaaaaaaaaaaaaaaaaaaaaaaaaa");
+		log.info(authenticationHeader);
+		log.info(HEADER);
+		log.info(PREFIX);
 		if (authenticationHeader == null || !authenticationHeader.startsWith(PREFIX))
 			return false;
-		if (authenticationHeader.contains("Seb"))
-			return true;
-		return false;
+		return true;
 	}
 
 }
