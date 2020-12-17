@@ -50,7 +50,6 @@ Storage : Base de donné Hibernet
 
 127.0.0.1:8080/employees : G elle reçois un login et un mots de passe et renvoie un token d'authentification qui pourra être utilisé pour identifier l'utilisateur sur les autres API
 
-127.0.0.1:5000/User: POST elle reçois un object user ajouter à la base Hibernet
 
 ### Gestion des sondages 
 
