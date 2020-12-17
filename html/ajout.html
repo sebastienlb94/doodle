@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre</title>
+  <link href="all.css" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<div class="topnav">
+  <a  href="home.html">Home</a>
+  <a class="active" href="ajout.html">Ajouter un profil</a>
+  <a href="supr.html">Supprimer un profil</a>
+  <a href="contact.html">Liste des contacts</a>
+  <a href="vote.html">Vote</a>
+</div>
+
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Ajout d'un profil</h3>
+    <h4>ce formulaire ajoute un profil à nos données</h4>
+    <fieldset>
+      <input placeholder="Prénom du développeur" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Nom du développeur" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Adresse email" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Numéro de téléphone (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Site Web (optional)" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+
+</body>
+</html>
