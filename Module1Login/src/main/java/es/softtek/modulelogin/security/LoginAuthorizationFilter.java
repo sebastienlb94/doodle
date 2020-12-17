@@ -66,7 +66,9 @@ public class LoginAuthorizationFilter extends OncePerRequestFilter {
 		String authenticationHeader = request.getHeader(HEADER);
 		if (authenticationHeader == null || !authenticationHeader.startsWith(PREFIX))
 			return false;
-		return true;
+		if (authenticationHeader.contains("Seb"))
+			return true;
+		return false;
 	}
 
 }

@@ -19,22 +19,22 @@ public class AccessingDataJpaApplication {
     public CommandLineRunner demo(CustomerRepository repository) {
         return (args) -> {
             // save a few customers
-            repository.save(new Customer("Jack", "Bauer"));
-            repository.save(new Customer("Chloe", "O'Brian"));
-            repository.save(new Customer("Kim", "Bauer"));
-            repository.save(new Customer("David", "Palmer"));
-            repository.save(new Customer("Michelle", "Dessler"));
+            repository.save(new User("Jack", "Bauer"));
+            repository.save(new User("Chloe", "O'Brian"));
+            repository.save(new User("Kim", "Bauer"));
+            repository.save(new User("David", "Palmer"));
+            repository.save(new User("Michelle", "Dessler"));
 
             // fetch all customers
             log.info("Customers found with findAll():");
             log.info("-------------------------------");
-            for (Customer customer : repository.findAll()) {
-                log.info(customer.toString());
+            for (User user : repository.findAll()) {
+                log.info(User.toString());
             }
             log.info("");
 
             // fetch an individual customer by ID
-            Customer customer = repository.findById(1L);
+            User user = repository.findById(1L);
             log.info("Customer found with findById(1L):");
             log.info("--------------------------------");
             log.info(customer.toString());
