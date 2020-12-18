@@ -4,7 +4,7 @@ Un site faisant office d'annuaire regroupant différent employés d'une societé
 
 ----------------
 
-## Sur certaines APIs, nous avons eu des soucis avec le CORS Policy sur le navigateur, nous vous conseillons donc monsieur de tester nos APIs sur le site POSTMAN(https://www.postman.com/).
+## Sur certaines APIs, nous avons eu des soucis avec le CORS Policy sur le navigateur, nous vous conseillons donc monsieur de tester nos APIs sur le site https://www.postman.com/.
 
 -----------------
 ## Ce que nous avons réussi à faire:
