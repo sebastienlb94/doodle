@@ -9,7 +9,7 @@ Un site faisant office d'annuaire regroupant différent employés d'une societé
 -----------------
 ## Ce que nous avons réussi à faire:
    ### API 1: 
-   Nous avons réussi à faire un login mot de passe avec un token( de 10 minutes), nous nous sommes servis de la base Hybernet que vous nous avez donnée.
+   Nous avons réussi à faire un login mot de passe avec un token( de 10 minutes), nous nous sommes servis de la base Hibernate que vous nous avez donnée.
    ### API 2:
    Nous avons pratiquement tout réussi dans cet API
    ### API 3: 
@@ -22,7 +22,7 @@ Un site faisant office d'annuaire regroupant différent employés d'une societé
 ## Ce que nous n'avons pas réussi à faire:
 Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui créait souvent des conflits dans l'IDE et découlait à des erreurs
    ### API 1:
-   On arrivait pas à interargir avec la base Hybernet pour procéder à l'authentification d'un utilisateur.
+   On arrivait pas à interargir avec la base Hibernate pour procéder à l'authentification d'un utilisateur.
    Un token plus sécurisé ( nous n'avions pas assez de compétences techniques pour l'améliorer)
    ### API 3:
    Pour cet API nous voulions faire un vote procéder à un vote unique par jour mais nous ne sommes pas arrivés à mettre en place cette solution
@@ -54,7 +54,7 @@ Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui cr
 ----------------
 ### Back-end : Java
 
-Storage : Base de donné Hibernet
+Storage : Base de donné Hibernate
 
 ----------------
 ### NB : 
