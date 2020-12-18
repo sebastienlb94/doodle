@@ -8,11 +8,11 @@ Un site faisant office d'annuaire regroupant différent employés d'une societé
 
 -----------------
 ## Ce que nous avons réussi à faire:
-   ### API 1: 
+   ### API 1: http://localhost:8081/hello et http://localhost:8081/user
    Nous avons réussi à faire un login mot de passe avec un token( de 10 minutes), nous nous sommes servis de la base Hibernate que vous nous avez donnée.
-   ### API 2:
+   ### API 2: http://localhost:8080/employees
    Nous avons pratiquement tout réussi dans cet API
-   ### API 3: 
+   ### API 3: http://localhost:8082/votes
    Nous avons fait une API qui permet à un utilisateur de voter.
    ### Front:
    Nous avons fait un bon front
@@ -32,6 +32,14 @@ Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui cr
 -----------------
    
 ## Ce que nous avons appris:
+
+| Nouvelles compétences techniques       | Amélioration de ces compétences techniques      | Compétence humaine |
+| ------|-----|-----|
+| Coder en JQuery, comprendre les différentes requetes possibles à une api  	| HTML/CSS,  	| Réflechir à une solution en groupe 	|
+| Appliquer les différentes requetes possibles à une api (seulement de la théorie en cours) 	| Coder en java  	| S'organiser, se répartir le travail et aider les autres en faisant des transferts de compétences selon le niveau de chacun dans les domaines 	|
+| Comprendre, utiliser et rédiger un script Maven  	| L'utilisation de GitHub (une première en groupe)  	| Communication entre nous pour coordonner nos actions 	|
+| Comprendre la structure d'un projet java et gérer les problèmes liées au JDK et dépendances  	| Trouver et traiter des informations perminantes sur internet pour se débloquer  	| Se documenter 	|
+
        - Nous avons consolidé nos connaissances sur les APIs
        - Nous avons consolidé nos connaissances sur les requêtes HTTP
        - Nous avons amélioré nos compétences en JAVA
@@ -44,9 +52,6 @@ Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui cr
 - Andy Tagne
 - Sébastien Soto
 - Yannis Boughali
-
-----------------
-## Run 
 ----------------
 ## Stack technique
 ----------------
@@ -178,18 +183,5 @@ Vous pouvez voir ci-dessous la captures d’écran du fonctionnement de notre AP
 |     :---:    |
 |![Features](static/6.png)|
 
-## End point
-----------------
-##  Modèle de données
 
-Employee :
-
-- String : Nom
-- String : Prénom
-- String : Role
-- String : Mail
-- String : Site
-- Int : Numero
-----------------
-## Maquette Web
 
