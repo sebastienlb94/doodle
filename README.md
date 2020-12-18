@@ -1,33 +1,33 @@
 # Programmation Web orienté mobile
 
-Un site faisant office d'annuaire regroupant différent employés d'une societé.
+Un site faisant office d'annuaire regroupant différent employés d'une societé, on peut ainsi voter pour l'employé du mois.
 
 ----------------
 
-## Sur certaines APIs, nous avons eu des soucis avec le CORS Policy sur le navigateur, nous vous conseillons donc monsieur de tester nos APIs sur le site https://www.postman.com/.
+## Sur navigateur, nous avons eu des soucis avec le CORS Policy, nous vous conseillons donc monsieur de tester nos APIs sur le site : https://www.postman.com/
 
 -----------------
 ## Ce que nous avons réussi à faire:
    ### API 1: http://localhost:8081/hello et http://localhost:8081/user
-   Nous avons réussi à faire un login mot de passe avec un token( de 10 minutes), nous nous sommes servis de la base Hibernate que vous nous avez donnée.
+   Nous avons réussi à faire un login mot de passe avec un token (de 10 minutes), nous nous sommes servis de la base Hibernate que vous nous avez donnée.
    ### API 2: http://localhost:8080/employees
-   Nous avons pratiquement tout réussi dans cet API
+   Nous avons pratiquement tout réussi dans cette API
    ### API 3: http://localhost:8082/votes
-   Nous avons fait une API qui permet à un utilisateur de voter.
+   Nous avons fait une API qui permet à un utilisateur de voter pour un employé.
    ### Front:
-   Nous avons fait un bon front
+   Nous avons fait une interface complète
    
 ------------------
 
 ## Ce que nous n'avons pas réussi à faire:
 Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui créait souvent des conflits dans l'IDE et découlait à des erreurs
    ### API 1:
-   On arrivait pas à interargir avec la base Hibernate pour procéder à l'authentification d'un utilisateur.
+   Nous n'arrivions pas à interargir avec la base Hibernate pour procéder à l'authentification d'un utilisateur.
    Un token plus sécurisé ( nous n'avions pas assez de compétences techniques pour l'améliorer)
    ### API 3:
-   Pour cet API nous voulions faire un vote procéder à un vote unique par jour mais nous ne sommes pas arrivés à mettre en place cette solution
+   Pour cette API nous voulions pouvoir procéder à un vote unique par jour mais nous ne sommes pas arrivés à mettre en place cette solution.
    ### Front:
-   Nous aurions pu faire un meilleur front avec des boutons de recherche
+   Nous aurions pu faire un meilleur front avec des boutons de recherche.
    
 -----------------
    
@@ -159,8 +159,8 @@ Ici, toujours avec votre permission nous avons décidé de faire une API qui per
 
 ### Problème rencontré:
 
-A la fin de cet API nous avons eu quelques soucis avec le front ; en ce sens le navigateur avait du mal à accepter la requête et nous avions un problème de CORS policy, après de multiples recherches, nous avons réussi à résoudre ce problème.
-Nous vous conseillons donc ainsi de tester toutes les API sur le site POSTMAN
+A la fin de cette API nous avons eu quelques soucis avec le front ; en ce sens le navigateur avait du mal à accepter la requête et nous avions un problème de CORS policy, après de multiples recherches, nous avons réussi à résoudre ce problème.
+Nous vous conseillons, au cas où, de tester toutes les API sur le site POSTMAN
 
 Vous pouvez voir ci-dessous la captures d’écran du fonctionnement de notre API. 
 
