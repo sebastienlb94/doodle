@@ -57,7 +57,7 @@ Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui cr
 Storage : Base de donné Hibernate
 
 ----------------
-### NB : 
+## NB : 
 
 Notre méthodologie de travail tout au long du projet était la suivante : deux personnes s’occupaient essentiellement des APIs avec une troisième personne en support en cas d’aide et cette dernière s’occupait essentiellement du Front. Certaines erreurs principalement dûes à des versions java pas compatibles ou à des erreurs avec Maven faisaient en sorte que pour certains projets, il n’y ait qu’une seule personne qui puisse travailler ; dans ce sens cette dernière faisait un partage d’écran avec les autres en support dans le cas où il commet des erreurs ou nécessite de se documenter.
 
@@ -65,7 +65,7 @@ Notre méthodologie de travail tout au long du projet était la suivante : deux 
 ## API 1 : Login
 
 
-# Context:
+### Context:
 Notre objet User n’est constitué que d’un nom et d’un mot de passe.
 
 Sur ce premier projet nous avons pour une première partie parfaitement réussie le login d’un utilisateur avec la création d’un token ; lorsqu’on a décidé d’améliorer notre projet en y intégrant l’authentification, nous avons eu des soucis avec notre Maven et malgré nos recherches intensives, bous n’avons pas pu découvrir d’où provenait l’erreur.
@@ -160,7 +160,7 @@ Vous pouvez voir ci-dessus des captures d’écran du fonctionnement de notre AP
 
 Ici, toujours avec votre permission nous avons décidé de faire une API qui permet de voter pour un employé, lui attribuant ainsi une note en fonction de son travail. Ceci est une continuité de l’API 2 et toujours liée à ce projet d’entreprenariat.
 
-## Problème rencontré:
+### Problème rencontré:
 
 A la fin de cet API nous avons eu quelques soucis avec le front ; en ce sens le navigateur avait du mal à accepter la requête et nous avions un problème de CORS policy, après de multiples recherches, nous avons réussi à résoudre ce problème.
 Nous vous conseillons donc ainsi de tester toutes les API sur le site POSTMAN
