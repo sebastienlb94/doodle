@@ -2,8 +2,11 @@
 
 Un site faisant office d'annuaire regroupant différent employés d'une societé.
 
+----------------
+
 ## Sur certaines APIs, nous avons eu des soucis avec le CORS Policy sur le navigateur, nous vous conseillons donc monsieur de tester nos APIs sur le site POSTMAN.
 
+-----------------
 ## Ce que nous avons réussi à faire:
    ### API 1: 
    Nous avons réussi à faire un login mot de passe avec un token( de 10 minutes), nous nous sommes servis de la base Hybernet que vous nous avez donnée.
@@ -14,6 +17,7 @@ Un site faisant office d'annuaire regroupant différent employés d'une societé
    ### Front:
    Nous avons fait un bon front
    
+------------------
 
 ## Ce que nous n'avons pas réussi à faire:
 Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui créait souvent des conflits dans l'IDE et découlait à des erreurs
@@ -25,6 +29,7 @@ Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui cr
    ### Front:
    Nous aurions pu faire un meilleur front avec des boutons de recherche
    
+-----------------
    
 ## Ce que nous avons appris:
    ### - Nous avons consolidé nos connaissances sur les APIs
