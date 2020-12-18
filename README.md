@@ -40,12 +40,6 @@ Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui cr
 | Comprendre, utiliser et rédiger un script Maven  	| L'utilisation de GitHub (une première en groupe)  	| Communication entre nous pour coordonner nos actions 	|
 | Comprendre la structure d'un projet java et gérer les problèmes liées au JDK et dépendances  	| Trouver et traiter des informations perminantes sur internet pour se débloquer  	| Se documenter 	|
 
-       - Nous avons consolidé nos connaissances sur les APIs
-       - Nous avons consolidé nos connaissances sur les requêtes HTTP
-       - Nous avons amélioré nos compétences en JAVA
-       - Nous avons appris à créer une base Hybernet
-       - Nous avons perfectionné nos compétences sur Github ( création de branches, création d'un readme, ....)
-
 ----------------
 ## Membre de l'équipe 
 
