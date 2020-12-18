@@ -25,9 +25,11 @@ Storage : Base de donné Hibernet
 
 Notre méthodologie de travail tout au long du projet était la suivante : deux personnes s’occupaient essentiellement des APIs avec une troisième personne en support en cas d’aide et cette dernière s’occupait essentiellement du Front. Certaines erreurs principalement dûes à des versions java pas compatibles ou à des erreurs avec Maven faisaient en sorte que pour certains projets, il n’y ait qu’une seule personne qui puisse travailler ; dans ce sens cette dernière faisait un partage d’écran avec les autres en support dans le cas où il commet des erreurs ou nécessite de se documenter.
 
+---------------
 ## API 1 : Login
 
 
+# Context:
 Notre objet User n’est constitué que d’un nom et d’un mot de passe.
 
 Sur ce premier projet nous avons pour une première partie parfaitement réussie le login d’un utilisateur avec la création d’un token ; lorsqu’on a décidé d’améliorer notre projet en y intégrant l’authentification, nous avons eu des soucis avec notre Maven et malgré nos recherches intensives, bous n’avons pas pu découvrir d’où provenait l’erreur.
@@ -56,12 +58,26 @@ Vous pouvez voir ci-dessous des captures d’écran du fonctionnement de notre A
 
 ## End point
 ----------------
-#API 2 : Gestion des utilisateurs
+
+## API 2 : Gestion des utilisateurs
+
+# NB:
+Le projet avait pour but de créer des sondages, les supprimer et des les lister, avec votre permission vous nous avez accordés la possibilité de modifier ce projet dans la forme mais de garder l’idée de l’API. En ce sens vu qu’un membre de notre groupe avait un projet d’entreprenariat lié à la gestion d’entreprise, nous avons choisi de faire une API qui crée des employés, les supprime et les liste.
+
+# Context:
+C’est l’API que nous avons le mieux réussi car nous avions une bonne ligne directrice.
+Nous n’avons pas eu d’erreurs particulières lorsque nous élaborions cet API.
+
+Vous pouvez voir ci-dessus des captures d’écran du fonctionnement de notre API.
+
+
 
 127.0.0.1:8080/employees : G elle reçois un login et un mots de passe et renvoie un token d'authentification qui pourra être utilisé pour identifier l'utilisateur sur les autres API
 
+## End point
+------------------
 
-### Gestion des sondages 
+### API 3 : Gestion des sondages 
 
 127.0.0.1:8080/employees: GET l'api renvoi les objets employee stocker dans la class database
 
