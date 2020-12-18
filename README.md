@@ -61,15 +61,47 @@ Vous pouvez voir ci-dessous des captures d’écran du fonctionnement de notre A
 
 ## API 2 : Gestion des utilisateurs
 
-# NB:
+### NB:
 Le projet avait pour but de créer des sondages, les supprimer et des les lister, avec votre permission vous nous avez accordés la possibilité de modifier ce projet dans la forme mais de garder l’idée de l’API. En ce sens vu qu’un membre de notre groupe avait un projet d’entreprenariat lié à la gestion d’entreprise, nous avons choisi de faire une API qui crée des employés, les supprime et les liste.
 
-# Context:
+### Context:
 C’est l’API que nous avons le mieux réussi car nous avions une bonne ligne directrice.
 Nous n’avons pas eu d’erreurs particulières lorsque nous élaborions cet API.
 
 Vous pouvez voir ci-dessus des captures d’écran du fonctionnement de notre API.
 
+### Liste employés
+
+| 1-a) GET sur employee|
+|     :---:    |
+|![Features](static/cap1.png)|
+
+
+| 1-b) Affichage Front|
+|     :---:    |
+|![Features](static/cap1.png)|
+
+### Ajout employé
+
+| 1-a) POST sur employee|
+|     :---:    |
+|![Features](static/cap1.png)|
+
+
+| 1-b) Affichage Json, nouvel employé|
+|     :---:    |
+|![Features](static/cap1.png)|
+
+### Suppression employé
+
+| 1-a) DELETE sur employee|
+|     :---:    |
+|![Features](static/cap1.png)|
+
+
+| 1-b) Affichage Json, employé supprimé|
+|     :---:    |
+|![Features](static/cap1.png)|
 
 
 127.0.0.1:8080/employees : G elle reçois un login et un mots de passe et renvoie un token d'authentification qui pourra être utilisé pour identifier l'utilisateur sur les autres API
