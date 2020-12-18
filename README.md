@@ -91,8 +91,6 @@ Vous pouvez voir ci-dessous des captures d’écran du fonctionnement de notre A
 
 3) GET sur 127.0.0.1:8080/hello possible grace à la clé secrete obtenu par le tocken seul les users autorisés on accès à cette api.
 
-## End point
-----------------
 
 ## API 2 : Gestion des utilisateurs
 
