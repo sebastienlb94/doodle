@@ -94,7 +94,7 @@ Vous pouvez voir ci-dessus des captures d’écran du fonctionnement de notre AP
 
 | 2-a) POST sur employee|
 |     :---:    |
-|![Features](static/3.png)|
+|![Features](static/131891298_218768733135457_195354172343433220_n.png)|
 
 
 | 2-b) Affichage Json, nouvel employé|
