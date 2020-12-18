@@ -62,7 +62,16 @@ Vous pouvez voir ci-dessous des captures d’écran du fonctionnement de notre A
 ## API 2 : Gestion des utilisateurs
 
 ### NB:
+
 Le projet avait pour but de créer des sondages, les supprimer et des les lister, avec votre permission vous nous avez accordés la possibilité de modifier ce projet dans la forme mais de garder l’idée de l’API. En ce sens vu qu’un membre de notre groupe avait un projet d’entreprenariat lié à la gestion d’entreprise, nous avons choisi de faire une API qui crée des employés, les supprime et les liste.
+
+127.0.0.1:8080/employees: GET l'api renvoie les objets employee stocker dans la class database
+
+127.0.0.1:8080/employees/<int:id>: GET l'api renvoi l'objets employee dont l'ID correspond si l'api est vide alors message d'erreur
+
+127.0.0.1:8080/employees: POST création d'un objets employee ajouter à l'api
+
+127.0.0.1:8080/employees/<int:id>: PUT modifie l'objets employee dont l'ID correspond
 
 ### Context:
 C’est l’API que nous avons le mieux réussi car nous avions une bonne ligne directrice.
@@ -111,14 +120,18 @@ Vous pouvez voir ci-dessus des captures d’écran du fonctionnement de notre AP
 
 ### API 3 : Gestion des sondages 
 
-127.0.0.1:8080/employees: GET l'api renvoi les objets employee stocker dans la class database
+### NB:
 
-127.0.0.1:8080/employees/<int:id>: GET l'api renvoi l'objets employee dont l'ID correspond si l'api est vide alors message d'erreur
+Ici, toujours avec votre permission nous avons décidé de faire une API qui permet de voter pour un employé, lui attribuant ainsi une note en fonction de son travail. Ceci est une continuité de l’API 2 et toujours liée à ce projet d’entreprenariat.
 
-127.0.0.1:8080/employees: POST création d'un objets employee ajouter à l'api
+## Problème rencontré:
 
-127.0.0.1:8080/employees/<int:id>: PUT modifie l'objets employee dont l'ID correspond
+A la fin de cet API nous avons eu quelques soucis avec le front ; en ce sens le navigateur avait du mal à accepter la requête et nous avions un problème de CORS policy, après de multiples recherches, nous avons réussi à résoudre ce problème.
+Nous vous conseillons donc ainsi de tester toutes les API sur le site POSTMAN
 
+Vous pouvez voir ci-dessous la captures d’écran du fonctionnement de notre API. 
+
+## End point
 ----------------
 ##  Modèle de donnée
 
