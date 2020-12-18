@@ -131,7 +131,7 @@ Nous vous conseillons donc ainsi de tester toutes les API sur le site POSTMAN
 
 Vous pouvez voir ci-dessous la captures d’écran du fonctionnement de notre API. 
 
-### Liste employés
+### Captures d'écran
 
 | a) Vote sur employee|
 |     :---:    |
