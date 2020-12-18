@@ -83,23 +83,23 @@ Vous pouvez voir ci-dessus des captures d’écran du fonctionnement de notre AP
 
 ### Ajout employé
 
-| 1-a) POST sur employee|
+| 2-a) POST sur employee|
 |     :---:    |
 |![Features](static/3.png)|
 
 
-| 1-b) Affichage Json, nouvel employé|
+| 2-b) Affichage Json, nouvel employé|
 |     :---:    |
 |![Features](static/4.png)|
 
 ### Suppression employé
 
-| 1-a) DELETE sur employee|
+| 3-a) DELETE sur employee|
 |     :---:    |
 |![Features](static/7.png)|
 
 
-| 1-b) Affichage Json, employé supprimé|
+| 3-b) Affichage Json, employé supprimé|
 |     :---:    |
 |![Features](static/8.png)|
 
