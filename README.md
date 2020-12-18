@@ -32,11 +32,11 @@ Nous avions certains problèmes avec les versions de nos SDKs et JDKs, ce qui cr
 -----------------
    
 ## Ce que nous avons appris:
-   ### - Nous avons consolidé nos connaissances sur les APIs
-   ### - Nous avons consolidé nos connaissances sur les requêtes HTTP
-   ### - Nous avons amélioré nos compétences en JAVA
-   ### - Nous avons appris à créer une base Hybernet
-   ### - Nous avons perfectionné nos compétences sur Github ( création de branches, création d'un readme, ....)
+       - Nous avons consolidé nos connaissances sur les APIs
+       - Nous avons consolidé nos connaissances sur les requêtes HTTP
+       - Nous avons amélioré nos compétences en JAVA
+       - Nous avons appris à créer une base Hybernet
+       - Nous avons perfectionné nos compétences sur Github ( création de branches, création d'un readme, ....)
 
 ----------------
 ## Membre de l'équipe 
