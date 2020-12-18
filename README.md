@@ -131,9 +131,20 @@ Nous vous conseillons donc ainsi de tester toutes les API sur le site POSTMAN
 
 Vous pouvez voir ci-dessous la captures d’écran du fonctionnement de notre API. 
 
+### Liste employés
+
+| a) Vote sur employee|
+|     :---:    |
+|![Features](static/5.png)|
+
+
+| b) Affichage Front|
+|     :---:    |
+|![Features](static/6.png)|
+
 ## End point
 ----------------
-##  Modèle de donnée
+##  Modèle de données
 
 Employee :
 
