@@ -58,13 +58,15 @@
 	</parent>
 
 	<modules>
-		<module></module>
+        <module>Module1Login</module>
+        <module>module2-Employee</module>
+		<module>module3-Votes</module>
 	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 
 		<evo.version>1.2.2</evo.version>
 	</properties>
