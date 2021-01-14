@@ -1,6 +1,0 @@
-org/springframework/hateoas/examples/Employee.class
-org/springframework/hateoas/examples/HypermediaConfiguration.class
-org/springframework/hateoas/examples/EmployeeRepository.class
-org/springframework/hateoas/examples/SpringHateoasAffordancesApplication.class
-org/springframework/hateoas/examples/EmployeeController.class
-org/springframework/hateoas/examples/DatabaseLoader.class
